@@ -1,8 +1,7 @@
 const PraticasDeSeguranca = () => {
     return (
         <div>
-            praticas de segurança
-            oi aqui
+            praticas de segurança deletei e coloquei isso kkkkkkkkkkkkkkk
         </div>
     );
 }
