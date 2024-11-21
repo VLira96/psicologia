@@ -1,7 +1,7 @@
 const Pagina = () => {
     return (
         <div>
-            
+
         </div>
     );
 }

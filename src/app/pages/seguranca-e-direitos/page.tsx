@@ -1,67 +1,48 @@
 const SegurancaEDireitos = () => {
-    return (
-        <main className="bg-gray-100 min-h-screen p-6 flex flex-col items-center">
-    
-          <section className="max-w-4xl bg-white shadow-lg rounded-lg mt-6 p-6">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">DIREITOS HUMANOS</h2>
-            <article className="text-gray-700 leading-relaxed space-y-4">
-              <h3 className="text-xl font-semibold text-blue-600">O que é LGPD?</h3>
-              <p>
-                A Lei Geral de Proteção de Dados foi criada com o objetivo de regulamentar o uso de dados das pessoas físicas, 
-                para proteger os direitos fundamentais de liberdade e de privacidade.
-              </p>
-    
-              <h3 className="text-xl font-semibold text-blue-600">O que a LGPD garante?</h3>
-              <p>
-                Garante a proteção dos direitos básicos relacionados à liberdade e à privacidade das pessoas nos meios online.
-              </p>
-    
-              <h3 className="text-xl font-semibold text-blue-600">
-                Qual a ligação com os direitos humanos?
-              </h3>
-              <p>
-                Os direitos digitais são uma extensão dos direitos presentes na Declaração Universal dos Direitos Humanos da ONU, 
-                aplicados ao mundo online. Seu principal objetivo é garantir o acesso à internet, combater a exclusão digital e 
-                assegurar que a rede seja usada como um bem comum. No entanto, a falta de consenso internacional resultou na 
-                criação de Cartas de Direitos Digitais distintas em cada país.
-              </p>
-              <p>
-                A internet, embora promova direitos humanos, também pode ser usada para violá-los. Os principais direitos digitais incluem:
-              </p>
-              <ul className="list-disc list-inside space-y-2">
-                <li><strong>Direito à Privacidade Online:</strong> Proteção de dados e comunicações pessoais.</li>
-                <li><strong>Liberdade de Expressão:</strong> Direito de publicar e acessar conteúdo online, respeitando os limites legais.</li>
-                <li><strong>Acesso à Informação:</strong> Garantia de acesso equitativo à internet e suas informações.</li>
-                <li><strong>Direito ao Esquecimento:</strong> Possibilidade de remover informações prejudiciais ou irrelevantes online.</li>
-                <li><strong>Neutralidade da Rede:</strong> Tratamento igualitário de todos os dados transmitidos pela internet.</li>
-                <li><strong>Propriedade Intelectual:</strong> Proteção contra pirataria e uso indevido de direitos autorais.</li>
-                <li><strong>Segurança Digital:</strong> Proteção contra crimes cibernéticos, como hacking e fraudes.</li>
-                <li><strong>Acesso Universal:</strong> Inclusão de pessoas com limitações no uso de tecnologias digitais.</li>
-              </ul>
-              <p>
-                O documento da ONU defende que os direitos offline devem ser garantidos também online, com destaque à liberdade de expressão, 
-                e incentiva a cooperação internacional para facilitar o acesso às tecnologias, essenciais para o exercício dos direitos humanos.
-              </p>
-    
-              <h3 className="text-xl font-semibold text-blue-600">
-                Qual a diferença entre LGPD e RGPD?
-              </h3>
-              <p>
-                Enquanto a LGPD é válida no Brasil, a RGPD é aplicada na União Europeia.
-              </p>
-              <ul className="list-disc list-inside space-y-2">
-                <li><strong>LGPD:</strong> regula a transferência dos dados pessoais para fora do Brasil.</li>
-                <li><strong>RGPD:</strong> impõe restrições às transferências internacionais de dados.</li>
-              </ul>
-              <p>
-                Ambas as leis garantem transparência quanto ao uso de dados e exigem que a venda de dados pessoais seja feita com base legal.
-              </p>
-            </article>
-          </section>
+  return (
+    <main className="bg-gray-100 min-h-screen p-6 flex flex-col items-center">
+      <section className="max-w-4xl bg-white shadow-lg rounded-lg mt-6 p-6">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Segurança Digital e Direitos Humanos</h2>
+        <article className="text-gray-700 leading-relaxed space-y-4">
+          <p>
+            No contexto dos direitos humanos, a segurança digital é de extrema importância, uma vez que a proteção à privacidade e à segurança digital estão diretamente relacionadas à preservação dos direitos fundamentais.
+          </p>
 
-        </main>
-      );
-    
+          <p>
+            Com o avanço da tecnologia, a vida online se tornou uma extensão da vida cotidiana, o que fez com que a segurança no ambiente digital passasse a ser tratada como um direito essencial. A <strong>Declaração Universal dos Direitos Humanos</strong>, adotada pela ONU, estabelece em seu artigo 12 que:
+          </p>
+          <blockquote className="bg-gray-100 border-l-4 border-green-600 px-4 py-2 text-gray-800 italic">
+            "Ninguém será sujeito a interferências arbitrárias em sua vida privada, família, domicílio ou correspondência, nem a ataques à sua honra e reputação."
+          </blockquote>
+          <p>
+            No contexto digital, isso inclui o direito à proteção de dados pessoais e à segurança nas interações realizadas na internet.
+          </p>
+
+          <h3 className="text-xl font-semibold text-green-600">
+            Legislações Relacionadas
+          </h3>
+          <ul className="list-disc list-inside space-y-2">
+            <li>
+              A <strong>Lei Geral de Proteção de Dados (LGPD)</strong>, representada no Brasil pela Lei n.º 13.709/2018, regula como empresas e organizações devem lidar com os dados pessoais dos indivíduos. Seu objetivo é proteger os direitos à privacidade e à liberdade, além de garantir a livre formação da personalidade.
+            </li>
+            <li>
+              A <strong>Lei 14.811/2024</strong> incluiu o cyberbullying no Código Penal e atribuiu punições para quem o comete, com penas de reclusão de dois a quatro anos e multa.
+            </li>
+          </ul>
+
+          <h3 className="text-xl font-semibold text-green-600">
+            Crimes Cibernéticos e Direitos Humanos
+          </h3>
+          <p>
+            A segurança na internet também abrange o combate a crimes cibernéticos, incluindo o roubo de identidade, fraudes, cyberbullying e assédio online. Esses crimes não apenas violam a privacidade das vítimas, mas também podem causar danos físicos e psicológicos severos.
+          </p>
+          <p>
+            A incapacidade de garantir a segurança no meio digital pode resultar na violação de direitos humanos fundamentais, como o direito à integridade física e psicológica. Crimes virtuais têm impactos devastadores no bem-estar das vítimas, tornando a segurança digital uma prioridade no campo dos direitos humanos.
+          </p>
+        </article>
+      </section>
+    </main>
+  );
 }
 
 export default SegurancaEDireitos;
