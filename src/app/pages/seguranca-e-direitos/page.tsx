@@ -2,17 +2,20 @@ const SegurancaEDireitos = () => {
   return (
     <main className="bg-gray-100 min-h-screen p-6 flex flex-col items-center">
       <section className="max-w-4xl bg-white shadow-lg rounded-lg mt-6 p-6">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Segurança Digital e Direitos Humanos</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+          Segurança Digital e Direitos Humanos
+        </h2>
         <article className="text-gray-700 leading-relaxed space-y-4">
           <p>
             No contexto dos direitos humanos, a segurança digital é de extrema importância, uma vez que a proteção à privacidade e à segurança digital estão diretamente relacionadas à preservação dos direitos fundamentais.
           </p>
 
           <p>
-            Com o avanço da tecnologia, a vida online se tornou uma extensão da vida cotidiana, o que fez com que a segurança no ambiente digital passasse a ser tratada como um direito essencial. A <strong>Declaração Universal dos Direitos Humanos</strong>, adotada pela ONU, estabelece em seu artigo 12 que:
+            Com o avanço da tecnologia, a vida online se tornou uma extensão da vida cotidiana, o que fez com que a segurança no ambiente digital passasse a ser tratada como um direito essencial. A{" "}
+            <strong>Declaração Universal dos Direitos Humanos</strong>, adotada pela ONU, estabelece em seu artigo 12 que:
           </p>
           <blockquote className="bg-gray-100 border-l-4 border-green-600 px-4 py-2 text-gray-800 italic">
-            "Ninguém será sujeito a interferências arbitrárias em sua vida privada, família, domicílio ou correspondência, nem a ataques à sua honra e reputação."
+            &quot;Ninguém será sujeito a interferências arbitrárias em sua vida privada, família, domicílio ou correspondência, nem a ataques à sua honra e reputação.&quot;
           </blockquote>
           <p>
             No contexto digital, isso inclui o direito à proteção de dados pessoais e à segurança nas interações realizadas na internet.
@@ -43,6 +46,6 @@ const SegurancaEDireitos = () => {
       </section>
     </main>
   );
-}
+};
 
 export default SegurancaEDireitos;
